@@ -15,7 +15,7 @@ class ViewController: UIViewController
     {
         super.viewDidLoad()
         
-        MLog("i am MLog")
+        MLog("I am a MLog")
         
     }
 
