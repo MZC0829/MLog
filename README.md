@@ -1,0 +1,2 @@
+# MLog
+Custom log output
