@@ -2,7 +2,7 @@
 Pod::Spec.new do |s|
 
 s.name         = "MLog"
-s.version      = "1.0.1"
+s.version      = "1.1.0"
 s.summary      = "Custom log output."
 s.description  = "Custom log output. Contain file, function, line and time."
 s.homepage     = "https://github.com/MZC0829/MLog"

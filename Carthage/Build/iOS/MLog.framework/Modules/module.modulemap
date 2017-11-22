@@ -1,0 +1,4 @@
+framework module MLog {
+    header "MLog-Swift.h"
+    requires objc
+}

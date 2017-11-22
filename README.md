@@ -15,7 +15,7 @@ target 'YourIosApps' do
 
   use_frameworks!
 
-  pod 'MLog', '~> 1.0.1'
+  pod 'MLog', '~> 1.1.0'
 
 end
 ```
@@ -25,6 +25,27 @@ end
 ```
 $ pod install
 ```
+
+
+## Carthage
+
+### 1、run the following command:
+```
+$ touch Cartfile
+```
+
+### 2、Add the following line to your Cartfile:
+
+```
+github "MZC0829/MLog"
+```
+
+### 3、run the following command:
+
+```
+$ carthage update
+```
+
 
 
 
