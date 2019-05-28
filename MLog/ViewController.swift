@@ -15,8 +15,11 @@ class ViewController: UIViewController
     {
         super.viewDidLoad()
         
-        MLog("I am a MLog")
+        MLog("I am a default MLog")
         
+        MLog("I am a time MLog", outputType: EnumMLogOutputType.time)
+        
+        MLog("I am a simple MLog", outputType: EnumMLogOutputType.simple)
     }
 
     override func didReceiveMemoryWarning() {
